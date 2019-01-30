@@ -60,7 +60,7 @@
                                     </segmentedControl>
                                 </subviews>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="meme" highlightedImage="meme" translatesAutoresizingMaskIntoConstraints="NO" id="Uq1-w5-Fcr">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uq1-w5-Fcr">
                                 <rect key="frame" x="16" y="267" width="343" height="133"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="133" id="WXg-48-M0z"/>
@@ -94,7 +94,4 @@
             <point key="canvasLocation" x="135.19999999999999" y="129.98500749625188"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="meme" width="1024" height="768"/>
-    </resources>
 </document>

@@ -67,6 +67,11 @@ class ViewController: UIViewController {
         //ajusta los labels
         labelPrimeraRespuesta.adjustsFontSizeToFitWidth = true
         segundaRespuestaLabel.adjustsFontSizeToFitWidth = true
+        
+        //imagen
+        let image = UIImage(named: "meme")
+        
+        mostrarImagen.image = image
     }
 
     @IBAction func seleccionarEmoji(_ sender: Any) {
